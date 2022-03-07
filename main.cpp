@@ -9,12 +9,13 @@
 int main()
 {
 	int board_size{};
-	std::cout << "\n<<< Welcome to GNU/Linux Tic Tac Toe >>> \n\n";
+	std::cout << "\n<<< Welcome to GNU/Linux Tic Tac Toe >>> \n";
+	std::cout << "--- Implementation by Juan Carlos Juarez --- \n\n";
 	do {
 		std::cout << "Please insert Board size: ";
 		std::cin >> board_size;
-		if(board_size < 2) std::cerr << "\nPlease insert a Board Size of at least 2x2 and not larger than 8x8.\n";
-	} while (board_size < 2 && board_size > 8);
+		if(board_size < 2 || board_size > 8) std::cerr << "\nPlease insert a Board Size of at least 2x2 and not larger than 8x8.\n\n";
+	} while (board_size < 2 || board_size > 8);
 	TicTacToe::Board board(board_size);
 	std::cout << "\nGame on!";
 	TicTacToe::displayBoard(board);

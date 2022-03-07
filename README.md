@@ -13,6 +13,8 @@ git clone https://github.com/jc-juarez/gnulinux-tictactoe
 
 Then navigate to TicTacToe/bin/x64/Debug and execute the TicTacToe.out file:
 
-```
+```bash
 ./TicTacToe.out
 ```
+
+This project was made using Visual Studio 2022 in Windows 11 through the C++ for Linux Development tool via SSH to the WSL.

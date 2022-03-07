@@ -1,6 +1,10 @@
 #ifndef BOARD_H
 #define BOARD_H
 
+// Author: Juan Carlos Juárez
+// GNU/Linux Tic Tac Toe
+// 'Board.h'
+
 #include <vector>
 #include <utility>
 

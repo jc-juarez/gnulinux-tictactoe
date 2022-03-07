@@ -1,3 +1,7 @@
+// Author: Juan Carlos Juárez
+// GNU/Linux Tic Tac Toe
+// 'main.cpp'
+
 #include <iostream>
 #include "Board.h"
 #include "Move.h"
@@ -9,8 +13,8 @@ int main()
 	do {
 		std::cout << "Please insert Board size: ";
 		std::cin >> board_size;
-		if(board_size < 2) std::cerr << "\nPlease insert a Board Size of at least 2x2.\n";
-	} while (board_size < 2);
+		if(board_size < 2) std::cerr << "\nPlease insert a Board Size of at least 2x2 and not larger than 8x8.\n";
+	} while (board_size < 2 && board_size > 8);
 	TicTacToe::Board board(board_size);
 	std::cout << "\nGame on!";
 	TicTacToe::displayBoard(board);

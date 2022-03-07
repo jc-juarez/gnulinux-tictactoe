@@ -17,4 +17,4 @@ Then navigate to TicTacToe/bin/x64/Debug and execute the TicTacToe.out file:
 ./TicTacToe.out
 ```
 
-This project was made using Visual Studio 2022 in Windows 11 through the C++ for Linux Development tool via SSH to the WSL. *Tested in Ubuntu 20.04.3 LTS
+This project was made using Visual Studio 2022 in Windows 11 through the C++ for Linux Development tool via SSH to the WSL. *Tested in Ubuntu 20.04.3 LTS.
